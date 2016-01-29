@@ -1,11 +1,9 @@
 {
   "name": "the-epic-agario-clone",
-  "description": "",
+  "description": "A simple Agar.io clone",
   "scripts": {
-  },
-  "env": {
-  },
-  "addons": [
-
-  ]
+    "build": "gulp build",
+    "start": "gulp run",
+    "watch": "gulp watch",
+    "test": "gulp test"
 }
